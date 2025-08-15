@@ -1,4 +1,4 @@
-import MessageBubble from "./MessageBubble.JSX";
+import MessageBubble from "./MessageBubble";
 
 const MessageList = ({ messages }) => {
   return (
