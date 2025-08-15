@@ -2,6 +2,8 @@
 
 ## Uygulamanın Canlı Görünümü için linke tıklayınız.
 
+https://react-car-social-c9u1qftoa-efeozells-projects.vercel.app/
+
 ### 📝 Proje Hakkında
 
 Bu proje, kullanıcıların mobil öncelikli bir arayüzde, araba ilanlarını sağa (beğen) veya sola (geç) kaydırarak keşfetmelerini sağlayan interaktif bir platform prototipidir. Kullanıcılar kendi ilanlarını ekleyebilir, beğendikleri ilanları favorilerine kaydedebilir, ilan sahipleriyle sohbet başlatabilir ve harita üzerinde diğer kullanıcıları veya etkinlikleri görüntüleyebilir ve onlarla etkileşime girebilirsiniz.
