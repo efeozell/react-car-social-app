@@ -1,4 +1,4 @@
-![App Screenshot](./images/carapp.mp4)
+![App Screenshot](./images/carapp.gif)
 
 ### 📝 Proje Hakkında
 

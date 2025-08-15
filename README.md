@@ -1,6 +1,6 @@
 ## ![TÜRKCE ANLATİM İCİN TIKLAYIN](./README.tr.md)
 
-![App Screenshot](./images/carapp.mp4)
+![App Screenshot](./images/carapp.gif)
 
 ### 📝 About The Project
 
