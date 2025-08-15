@@ -1,12 +1,14 @@
-## ![TÜRKCE ANLATİM İCİN TIKLAYIN](./README.tr.md)
+## AI Car Discovery - Tinder for Cars
 
-![App Screenshot](./images/carapp.gif)
+![Türkçe Anlatım İçin Tıklayın](./README.tr.md)
 
 ### 📝 About The Project
 
 This project is an interactive platform prototype that allows users to discover car listings by swiping right (like) or left (pass) on a mobile-first interface, similar to Tinder. Users can add their own listings, save their liked listings as favorites, start chats with listing owners, and view other users or events on a map.
 
 The project was built from scratch using modern React principles and hooks (`useReducer`, `useContext`), and styled with `CSS Modules` without relying on a UI component library.
+
+![App Screenshot](./images/carapp.gif)
 
 ### ✨ Features
 

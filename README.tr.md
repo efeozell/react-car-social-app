@@ -1,10 +1,12 @@
-![App Screenshot](./images/carapp.gif)
+## AI Car Discovery - Tinder for Cars
 
 ### 📝 Proje Hakkında
 
 Bu proje, kullanıcıların mobil öncelikli bir arayüzde, araba ilanlarını sağa (beğen) veya sola (geç) kaydırarak keşfetmelerini sağlayan interaktif bir platform prototipidir. Kullanıcılar kendi ilanlarını ekleyebilir, beğendikleri ilanları favorilerine kaydedebilir, ilan sahipleriyle sohbet başlatabilir ve harita üzerinde diğer kullanıcıları veya etkinlikleri görüntüleyebilir ve onlarla etkileşime girebilirsiniz.
 
 Proje, modern React prensipleri ve hooks (`useReducer`, `useContext`) kullanılarak, UI kütüphanesi olmadan sıfırdan `CSS Modules` ile stilize edilmiştir.
+
+![Uygulama Ekran Görüntüsü](./images/carapp.gif)
 
 ### ✨ Özellikler
 
