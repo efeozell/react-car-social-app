@@ -1,0 +1,26 @@
+/* src/components/Header/Header.module.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem; /* Dikey boşluk artırıldı */
+  color: white;
+  width: 100%;
+}
+.title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1px solid #444;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}

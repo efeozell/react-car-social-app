@@ -1,0 +1,12 @@
+.chatPage {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ana konteynerin tüm yüksekliğini kaplamasını sağlar */
+  background-color: #1a1a1a;
+}
+
+.messageListContainer {
+  flex-grow: 1; /* Kalan tüm boş alanı doldurur */
+  overflow-y: auto; /* Mesajlar sığmazsa kaydırma çubuğu çıkar */
+  padding: 1rem;
+}

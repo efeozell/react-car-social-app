@@ -1,0 +1,55 @@
+/* CarListItem.module.css */
+.itemContainer {
+  display: flex;
+  gap: 1rem;
+  background-color: var(--card-background, #282828);
+  padding: 1rem;
+  border-radius: var(--border-radius-md, 12px);
+  align-items: center;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info {
+  flex-grow: 1; /* Kalan tüm boşluğu doldurur */
+}
+
+.info h3 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light, white);
+}
+
+.info p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted, #aaaaaa);
+}
+
+.tags {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: #444;
+  color: var(--text-light, white);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.editButton {
+  background: none;
+  border: none;
+  color: var(--text-muted, #aaaaaa);
+  cursor: pointer;
+}

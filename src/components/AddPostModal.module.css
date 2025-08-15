@@ -1,0 +1,102 @@
+/* AddPostModal.module.css */
+
+.backdrop {
+  position: fixed; /* Ekrana göre sabitler, sayfa kaysa bile yerinde kalır */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Viewport (görünür alan) genişliğinin %100'ü */
+  height: 100vh; /* Viewport yüksekliğinin %100'ü */
+  background-color: rgba(0, 0, 0, 0.75); /* Yarı saydam siyah arka plan */
+  z-index: 2000; /* Diğer tüm elementlerin üzerinde olmasını sağlar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: var(
+    --card-background,
+    #282828
+  ); /* Global değişkenden renk alır */
+  padding: 2rem;
+  border-radius: var(--border-radius-lg, 20px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh; /* Ekranın %90'ından fazla uzamasını engeller */
+  overflow-y: auto; /* İçerik sığmazsa kaydırma çubuğu çıkar */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Form grupları arası boşluk artırıldı */
+  margin-top: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text-muted, #aaaaaa);
+}
+
+.input {
+  padding: 0.85rem; /* İç boşluk artırıldı */
+  border: 1px solid #595959;
+  border-radius: 8px; /* Daha modern köşe yuvarlaklığı */
+  font-size: 1rem;
+  background-color: #1f1f1f;
+  color: white;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-red, #e94057);
+  box-shadow: 0 0 0 2px rgba(233, 64, 87, 0.2);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #303030;
+  padding-top: 1.5rem;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submitButton {
+  border: none;
+  background-color: var(--primary-red, #e94057);
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #ff4d4f;
+}
+
+.cancelButton {
+  border: 1px solid #595959;
+  background-color: transparent;
+  color: #d9d9d9;
+}
+
+.cancelButton:hover {
+  background-color: #1f1f1f;
+  border-color: #8c8c8c;
+}

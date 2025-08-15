@@ -1,0 +1,46 @@
+/* MessageBubble.module.css */
+.bubbleContainer {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+/* Gönderen "ben" olduğumda, konteyneri sağa yasla */
+.myMessage {
+  justify-content: flex-end;
+}
+
+/* Gönderen "karşı taraf" olduğunda, konteyneri sola yasla */
+.theirMessage {
+  justify-content: flex-start;
+}
+
+.bubble {
+  max-width: 70%;
+  padding: 0.75rem 1rem;
+  border-radius: 20px;
+  line-height: 1.4;
+}
+
+/* Benim mesajlarımın stili */
+.myBubble {
+  background-color: var(--primary-red, #e94057);
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+/* Karşı tarafın mesajlarının stili */
+.theirBubble {
+  background-color: #3a3a3a;
+  color: white;
+  border-bottom-left-radius: 5px;
+}
+
+/* Araba ilanı kartı için özel stil */
+.listingCard {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}

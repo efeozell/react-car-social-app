@@ -1,0 +1,21 @@
+.deckContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.cardWrapper {
+  position: absolute;
+  width: 90%;
+  max-width: 350px;
+  height: 100%;
+  cursor: grab;
+}
+
+.cardWrapper:active {
+  cursor: grabbing;
+}

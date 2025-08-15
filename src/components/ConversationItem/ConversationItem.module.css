@@ -1,0 +1,73 @@
+/* ConversationItem.module.css */
+.itemContainer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #303030;
+  transition: background-color 0.2s;
+}
+.itemContainer:hover {
+  background-color: #282828;
+}
+
+.avatarContainer {
+  position: relative;
+}
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.onlineIndicator {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  background-color: #52c41a; /* Yeşil renk */
+  border-radius: 50%;
+  border: 2px solid #1f1f1f;
+}
+
+.content {
+  flex-grow: 1;
+  overflow: hidden; /* Uzun mesajların taşmasını engeller */
+}
+.userName {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text-light, white);
+}
+.lastMessage {
+  font-size: 0.9rem;
+  color: var(--text-muted, #aaaaaa);
+  margin: 4px 0 0 0;
+  white-space: nowrap; /* Mesajın tek satırda kalmasını sağlar */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Sığmazsa sonuna ... koyar */
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted, #aaaaaa);
+}
+.unreadBadge {
+  background-color: var(--primary-red, #e94057);
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+/* MapPage.module.css */
+.marker {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.marker:hover {
+  transform: scale(1.2);
+}
+.friendMarker {
+  background-color: #40a9ff; /* Mavi */
+}
+.eventMarker {
+  background-color: #f5222d; /* Kırmızı */
+}
+
+/* MapPage.module.css (Mevcut stillere ek) */
+
+.infoWindowContent {
+  padding: 0.5rem;
+  color: #333;
+}
+.infoWindowContent h4 {
+  margin: 0 0 8px 0;
+}
+.infoWindowContent p {
+  margin: 4px 0;
+}
+.onlineStatus {
+  color: green;
+  font-weight: 500;
+}
+.messageButton {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: none;
+  background-color: var(--primary-red, #e94057);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
